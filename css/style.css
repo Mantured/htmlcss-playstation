@@ -1,8 +1,63 @@
 
+
 header{
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
 main{
     font-family: Helvetica, sans-serif;
+}
+
+.dropdown-toggle::after {
+    border: none;
+}
+
+#jumbotron{
+    background-image:url(../img/jumbo-bg.png);
+    height: 670px;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner{
+    height: 630px;
+    width: 100%;
+}
+
+.title-box{
+    height: 300px;
+    width: 100vw;
+}
+
+section.item div.container-fluid div.row div img{
+    width: 245px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.object-box{
+    height: 500px;
+}
+
+.img-object{
+    height: 550px;
+}
+
+.img-object img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.marketplace{
+    width: 200px;
+    height: 200px;
+}
+
+.marketplace img{
+    width:65%;
 }
