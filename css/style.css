@@ -68,6 +68,15 @@ section#jumbotron img{
     width: 220px;
 }
 
-section#subscriprion div.col:first-child img{
+.bg-grey{
+    background-color: rgb(190, 188, 187);
+}
+
+.bg-dark-blue{
+    background-color: rgb(22, 28, 59);
+}
+
+section#subscriprion div.col:first-child img,
+section#explorer div.col:first-child img{
     width: 200px;
 }
