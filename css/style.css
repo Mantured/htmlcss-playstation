@@ -7,8 +7,16 @@ main{
     font-family: Helvetica, sans-serif;
 }
 
+#top-header img{
+    width: 100px;
+}
+
 main img{
     width:100%;
+}
+
+footer img{
+    width: 100%;
 }
 
 .dropdown-toggle::after {
@@ -177,3 +185,25 @@ section#explorer div.col:first-child img{
 }
 
 
+#logo-invert{
+    filter: invert(1) grayscale(1) brightness(3);
+    width: 150px;
+}
+
+.bg-light-blue{
+    background-color: rgb(0, 67, 156);
+}
+
+#link-footer a,
+#credits a{
+    color: white;
+}
+.fa-registered{
+    left: 140px;
+    top: 100px;
+}
+
+#credits img{
+    width: 200px;
+    margin-bottom: 1rem;
+}
