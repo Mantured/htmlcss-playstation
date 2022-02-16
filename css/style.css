@@ -80,3 +80,100 @@ section#subscriprion div.col:first-child img,
 section#explorer div.col:first-child img{
     width: 200px;
 }
+
+.social-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-box img{
+    flex-basis: calc(70% / 2);
+    margin: 1rem 1.5rem;
+}
+
+
+/* @media screen and (max-width: 576px) { 
+    .social-box img{
+        flex-basis: calc(65% / 2);
+        margin: 1rem 2rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+    .social-box img{
+        flex-basis: calc(65% / 2);
+        margin: 1rem 2rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    .social-box img{
+        flex-basis: calc(65% / 4);
+        margin: 1rem 1.5rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    .social-box img{
+        flex-basis: calc(55% / 4);
+        margin: 1rem 2rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .social-box img{
+        flex-basis: calc(55% / 4);
+        margin: 1rem 2rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
+    .social-box img{
+        flex-basis: calc(55% / 4);
+        margin: 1rem 2rem;
+    }
+
+    .social-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+
