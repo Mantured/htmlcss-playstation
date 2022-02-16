@@ -67,3 +67,7 @@ section#game img,
 section#jumbotron img{
     width: 220px;
 }
+
+section#subscriprion div.col:first-child img{
+    width: 200px;
+}
