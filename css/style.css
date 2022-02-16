@@ -18,11 +18,12 @@ main img{
 div.banner{
     height: 630px;
     width: 100%;
-}
+} 
 
 div.card{
     width: 100%;
     border-radius: 1rem;
+    border:none;
 }
 
 div.card img{
@@ -30,21 +31,21 @@ div.card img{
 }
 
 div.title-box{
-    height: 300px;
-    width: 100vw;
+    height: 250px;
+    width: 100%;
 }
 
-.marketplace{
+div.marketplace{
     width: 200px;
     height: 200px;
     opacity: .6;
 }
 
-.marketplace img{
+div.marketplace img{
     width:65%;
     margin-bottom: 1rem;
-
 }
+
 #no-opacity{
     opacity: 1;
 }
@@ -54,4 +55,15 @@ section#jumbotron{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
+}
+
+section#game{
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section#game img,
+section#jumbotron img{
+    width: 220px;
 }
