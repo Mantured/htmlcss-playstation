@@ -7,10 +7,6 @@ main{
     font-family: Helvetica, sans-serif;
 }
 
-#top-header img{
-    width: 100px;
-}
-
 main img{
     width:100%;
 }
@@ -21,6 +17,25 @@ footer img{
 
 .dropdown-toggle::after {
     border: none;
+}
+
+.fa-registered{
+    left: 140px;
+    top: 100px;
+}
+
+/* colori bg custom */
+
+.bg-grey{
+    background-color: rgb(190, 188, 187);
+}
+
+.bg-dark-blue{
+    background-color: rgb(22, 28, 59);
+}
+
+.bg-light-blue{
+    background-color: rgb(0, 67, 156);
 }
 
 div.banner{
@@ -54,8 +69,14 @@ div.marketplace img{
     margin-bottom: 1rem;
 }
 
+
+
 #no-opacity{
     opacity: 1;
+}
+
+section#top-header img{
+    width: 100px;
 }
 
 section#jumbotron{
@@ -71,23 +92,34 @@ section#game{
     background-repeat: no-repeat;
     background-position: center;
 }
-section#game img,
-section#jumbotron img{
+
+section#jumbotron img,
+section#game img{
     width: 220px;
-}
-
-.bg-grey{
-    background-color: rgb(190, 188, 187);
-}
-
-.bg-dark-blue{
-    background-color: rgb(22, 28, 59);
 }
 
 section#subscriprion div.col:first-child img,
 section#explorer div.col:first-child img{
     width: 200px;
 }
+
+img#logo-invert{
+    filter: invert(1) grayscale(1) brightness(3);
+    width: 150px;
+}
+
+section#link-footer a,
+section#credits a{
+    color: white;
+}
+
+section#credits img{
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+
+/* mediaqueries social-box  sezione*/
 
 .social-box{
     display: flex;
@@ -96,10 +128,9 @@ section#explorer div.col:first-child img{
 }
 
 .social-box img{
-    flex-basis: calc(70% / 2);
+    flex-basis: calc(65% / 2);
     margin: 1rem 1.5rem;
 }
-
 
 /* @media screen and (max-width: 576px) { 
     .social-box img{
@@ -145,7 +176,7 @@ section#explorer div.col:first-child img{
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
     .social-box img{
-        flex-basis: calc(55% / 4);
+        flex-basis: calc(45% / 4);
         margin: 1rem 2rem;
     }
 
@@ -159,7 +190,7 @@ section#explorer div.col:first-child img{
 /*  X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .social-box img{
-        flex-basis: calc(55% / 4);
+        flex-basis: calc(30% / 4);
         margin: 1rem 2rem;
     }
 
@@ -173,7 +204,7 @@ section#explorer div.col:first-child img{
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
     .social-box img{
-        flex-basis: calc(55% / 4);
+        flex-basis: calc(30% / 4);
         margin: 1rem 2rem;
     }
 
@@ -184,26 +215,3 @@ section#explorer div.col:first-child img{
     }
 }
 
-
-#logo-invert{
-    filter: invert(1) grayscale(1) brightness(3);
-    width: 150px;
-}
-
-.bg-light-blue{
-    background-color: rgb(0, 67, 156);
-}
-
-#link-footer a,
-#credits a{
-    color: white;
-}
-.fa-registered{
-    left: 140px;
-    top: 100px;
-}
-
-#credits img{
-    width: 200px;
-    margin-bottom: 1rem;
-}
