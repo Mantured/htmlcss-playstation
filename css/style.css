@@ -15,6 +15,11 @@ footer img{
     width: 100%;
 }
 
+
+.top-distance{
+    top:99px;
+}
+
 .dropdown-toggle::after {
     border: none;
 }
@@ -119,6 +124,7 @@ section#credits img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 20%;
 }
 
 .social-box img{
