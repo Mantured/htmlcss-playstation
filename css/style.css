@@ -215,3 +215,7 @@ section#credits img{
     }
 }
 
+.game-image:hover{
+    border-color: rgb(13, 110, 253) !important;
+}
+
