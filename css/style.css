@@ -16,10 +16,6 @@ footer img{
 }
 
 
-.top-distance{
-    top:99px;
-}
-
 .dropdown-toggle::after {
     border: none;
 }
@@ -217,90 +213,4 @@ section#credits img{
 }
 
 
-/* Hover */
 
-.game-image:hover{
-    border-color: rgb(13, 110, 253) !important;
-}
-
-.marketplace:hover{
-        opacity: 1;
-        border-bottom: 2px solid rgb(13, 110, 253);
-}
-
-.nav-item:hover .chrone{
-    display: none !important;
-}
-
-.nav-item:hover .chrone-blue{
-    display: inline-block !important;
-}
-
-/* % copiato da codepen.i  da sistemare o togliere*/
-
-.search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-}
-
-.input-search{
-    height: 40px;
-    width: 40px;
-    border-style: none;
-    padding: 10px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    outline: none;
-    border-radius: 25px;
-    transition: all .5s ease-in-out;
-    padding-right: 40px;
-    color:rgb(0, 0, 0);
-}
-.input-search::placeholder{
-    color:rgb(15, 13, 13);
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-.btn-search{
-    width: 40px;
-    height: 40px;
-    border-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    right: 0px;
-    color:#0c0b0b ;
-    background-color:transparent;
-    pointer-events: painted;  
-}
-.btn-search:focus ~ .input-search{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(255,255,255,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-.input-search:focus{
-    width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(255,255,255,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-}
-
-
-/* %Prove */
-
-@media screen and (max-width: 992px) { 
-        .banner-secondary{
-            background-color: rgba(255,255,255,.5);
-            border-radius: 1rem;
-            color: black;
-
-        }
-}
