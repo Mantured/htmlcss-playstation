@@ -44,7 +44,7 @@ footer img{
 }
 
 div.banner{
-    height: 75vh;
+    height: 700px;
     width: 100%;
 } 
 
@@ -83,6 +83,7 @@ section#jumbotron{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
+    min-width: fit-content;
 }
 
 section#game{
@@ -124,7 +125,7 @@ section#credits img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .social-box img{
