@@ -92,3 +92,16 @@
     top:99px;
 }
 
+
+.card-prova:hover div.card-body{
+    display: none;
+    
+}
+
+.card-prova:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+    border: 1px solid red;
+}
+
+
