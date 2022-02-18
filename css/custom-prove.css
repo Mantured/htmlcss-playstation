@@ -89,7 +89,7 @@
 
 /* %do distanza all jumbotron altrimenti la navbar fixed mi taglia l'inizio della bg image */
 .top-distance{
-    top:99px;
+    margin-top: 120px;
 }
 
 
